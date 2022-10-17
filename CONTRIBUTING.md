@@ -1,6 +1,7 @@
 # 
 
 Contributing Guidelines-
+
 While on one hand our repository is a good place for beginners to contribute something useful to open source, on the other hand it is also a good place for experienced people to contribute something useful to open source. We welcome contributions from everyone. <br>
 However some people tend to spam the repository with irrelevant pull requests and get one PR for hacktoberfest and other such open source events. We do not want that to happen. So we have a few guidelines that we would like you to follow. <br>
 __In case we find your PR not relevant or spam, we will mark it as invalid and it will not be counted towards hacktoberfest.__
@@ -19,6 +20,7 @@ Why is program documentation important?
 
 
 When should program documentation be done?
+
 -> When designing your program, you must spend time thinking about how to structure your program, what modules are needed, and the algorithms and processes you will use in the modules.
 -> You must think about what sort of data structures and objects (e.g., arrays, files or linked lists) are needed.
 -> This thinking must be done before you start coding, or you will find yourself wasting time writing useless code that is full of errors.
@@ -31,6 +33,7 @@ When should program documentation be done?
 
 
 What information should be in the program documentation?
+
 For an individual module, it is important to record
 (1) who has written the module,
 (2) when the module was written or modified,
