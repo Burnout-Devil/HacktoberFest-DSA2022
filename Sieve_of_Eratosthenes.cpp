@@ -19,7 +19,6 @@ void SieveOfEratosthenes(int n)
 	if (prime[p])
 		cout << p << " ";
 }
-
 int main()
 {
 	int n = 30;
