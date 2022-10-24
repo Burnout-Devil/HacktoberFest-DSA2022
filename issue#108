@@ -1,0 +1,52 @@
+import java.util.*;
+
+public class nums {
+   static  int arr1[]=new int[150];
+   static int negative(int arr[],int n){
+       int k=0;
+        for(int i=0;arr[i]<0;i++){
+            arr1[i]=arr[i];
+            k++;
+        }
+
+        for(int i=k-1;i>=0;i--){
+            int b=arr1[i];
+            for(int j=0;j<n;j++){
+                if(arr[j]==(-b)){
+                    return arr[j];
+                }
+            }
+        }
+        return -1;
+    }
+    public static void main(String args[]) {
+        Scanner sc = new Scanner(System.in);
+        int []arr=new int[200];
+        int n=sc.nextInt();
+        int temp=0;
+        for(int i=0;i<n;i++){
+            arr[i]=sc.nextInt();
+        }
+
+        for(int i=0;i<n;i++){
+            for(int j=1;j<n-i;j++){
+                if(arr[j] < arr[j-1]){
+
+                    temp = arr[j-1];
+                    arr[j-1] = arr[j];
+                    arr[j] = temp;
+                }
+            }
+
+        }
+        for(int i=0;i<n;i++){
+            System.out.print(arr[i]);
+            System.out.print(" ");
+        }
+
+        int c=negative(arr,n);
+        System.out.println();
+        System.out.println(c);
+
+    }
+}
