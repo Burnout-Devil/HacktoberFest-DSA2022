@@ -16,3 +16,12 @@ Hashing is relevant to -- but not limited to -- data indexing and retrieval, dig
 
 # Why Hashing is used??
 One can oberve sthat the time complexity for searching, inserting, or deleting any element in a balanced binary search tree is O. (logn). There may come a time when our programmes wish to perform the same tasks faster, that is, more efficiently, and this is where hashing comes into play. All of the aforementioned operations in hashing may be completed in O(1), or constant time. It's crucial to realise that while the average case time complexity for hashing is O(1), the worst case time complexity is still O(n).
+
+<br>
+
+# Basic Components of Hashing ??
+1) Hash Table: An array that holds indices to records linked to a certain phone number. If no existing phone number has a hash function value equal to the entry's index, the item in the hash table is NIL. Simply put, we might argue that an array is a generalisation of a hash table. A hash table provides the ability to store a group of data in a form that makes it simple to locate those things later, if necessary. As a result, searching for an element is quite effective.
+
+2) A hash function transforms a large phone number into a tiny, usable integer value. In a hash table, the mapped integer value serves as an index. So, to put it simply, a hash function is utilised to convert a given key into a certain slot index. Its major task is to convert each and every key into a distinct slot index. The hash function is referred to as a perfect hash function if each key maps to a distinct slot index.
+
+
